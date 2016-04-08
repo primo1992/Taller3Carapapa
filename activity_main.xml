@@ -21,7 +21,7 @@
         android:src="@drawable/body"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -30,7 +30,7 @@
         android:src="@drawable/arms"
         android:layout_centerVertical="true"
         android:layout_alignStart="@+id/imageView"
-         />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -39,7 +39,7 @@
         android:src="@drawable/ears"
         android:layout_alignTop="@+id/imageView"
         android:layout_centerHorizontal="true"
-         />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -48,7 +48,7 @@
         android:src="@drawable/eyebrows"
         android:layout_alignTop="@+id/imageView"
         android:layout_centerHorizontal="true"
-         />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -57,7 +57,7 @@
         android:src="@drawable/eyes"
         android:layout_alignTop="@+id/imageView"
         android:layout_centerHorizontal="true"
-         />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -66,7 +66,7 @@
         android:src="@drawable/glasses"
         android:layout_alignBottom="@+id/imageView"
         android:layout_alignStart="@+id/imageView"
-         />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -75,7 +75,7 @@
         android:src="@drawable/hat"
         android:layout_alignTop="@+id/imageView"
         android:layout_centerHorizontal="true"
-        />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -84,7 +84,7 @@
         android:src="@drawable/mouth"
         android:layout_alignTop="@+id/imageView"
         android:layout_centerHorizontal="true"
-         />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -93,7 +93,7 @@
         android:src="@drawable/mustache"
         android:layout_alignTop="@+id/imageView"
         android:layout_centerHorizontal="true"
-         />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -102,7 +102,7 @@
         android:src="@drawable/nose"
         android:layout_alignTop="@+id/imageView"
         android:layout_alignStart="@+id/imageView"
-        />
+        android:visibility="invisible" />
 
     <ImageView
         android:layout_width="150dp"
@@ -111,17 +111,7 @@
         android:src="@drawable/shoes"
         android:layout_alignTop="@+id/imageView"
         android:layout_alignStart="@+id/imageView"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Buscar"
-        android:id="@+id/button"
-        android:layout_above="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="64dp"
-        android:onClick="darclick" />
+        android:visibility="invisible" />
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -186,7 +176,8 @@
         android:id="@+id/checkbig"
         android:onClick="checkbig"
         android:layout_below="@+id/checkcej"
-        android:layout_alignEnd="@+id/checkojo" />
+        android:layout_alignEnd="@+id/checkojo"
+        android:layout_alignBottom="@+id/checknar" />
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -194,8 +185,8 @@
         android:text="brazos"
         android:id="@+id/checkbra"
         android:onClick="checkbra"
-        android:layout_below="@+id/checkgaf"
-        android:layout_alignStart="@+id/checkgaf" />
+        android:layout_alignStart="@+id/checkgaf"
+        android:layout_alignTop="@+id/checkbig" />
 
     <CheckBox
         android:layout_width="wrap_content"
